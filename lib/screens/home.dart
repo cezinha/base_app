@@ -5,6 +5,7 @@ import 'package:flutter_redux/flutter_redux.dart';
 
 import 'package:base_app/util/analytics.dart';
 import 'package:base_app/screens/components/connection.dart';
+import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 //import 'package:firebase_analytics/firebase_analytics.dart';
 //import 'package:firebase_analytics/observer.dart';
 
@@ -92,14 +93,26 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   Expanded(child: Container(
                     color: Colors.green[300],
-                    child: Center(
-                      child: Text('Esquerda',
-                        style: TextStyle(
-                          fontSize: 22.0,
-                          color: Colors.black
+                    child: Column(
+                      children: [
+                        Center(
+                          child: Text('Centro',
+                            style: TextStyle(
+                              fontSize: 22.0,
+                              color: Colors.black
+                            )
+                          ),
+                        ),
+                        FlatButton(
+                          child: const Text('Crash'),
+                          onPressed: () {
+                            // Use Crashlytics to throw an error. Use this for
+                            // confirmation that errors are being correctly reported.
+                            Crashlytics.instance.crash();
+                          }
                         )
-                      ),
-                    ),
+                      ]
+                    )
                   )),
                   Container(
                     width: 50.0,

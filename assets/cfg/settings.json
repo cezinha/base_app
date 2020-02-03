@@ -1,4 +1,9 @@
 {
+    "version": "0.3.0",
+    "remote_config": "http://192.168.1.30:3000/config.json?v=$version",
     "offline_mode": true,
-    "firebase_analytics": false
+    "firebase_analytics": false,
+    "force_update": false,
+    "force_update_title": "Nova atualização",
+    "force_update_message": "Sua versão do app está desatualizada, verifique na loja"
 }

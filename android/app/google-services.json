@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:1083053791439:android:8d14b9bed662d089f2bfba",
         "android_client_info": {
-          "package_name": "br.com.cezinha.demo_app"
+          "package_name": "br.com.cezinha.base_app"
         }
       },
       "oauth_client": [
