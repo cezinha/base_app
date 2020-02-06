@@ -10,12 +10,12 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.5.0'
+        classpath 'com.android.tools.build:gradle:3.5.3'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         // Add the google services classpath
-        classpath 'com.google.gms:google-services:4.3.2'
-        // Add fabric classpath
+        classpath 'com.google.gms:google-services:4.3.3'
         classpath 'io.fabric.tools:gradle:1.26.1'
+        //classpath 'com.google.firebase:firebase-crashlytics-gradle:2.0.0-beta02'
     }
 }
 
@@ -23,6 +23,10 @@ allprojects {
     repositories {
         google()
         jcenter()
+        // Additional repository for fabric resources
+        maven {
+            url 'https://maven.fabric.io/public'
+        }
     }
 }
 

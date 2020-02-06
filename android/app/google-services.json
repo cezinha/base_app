@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "1083053791439",
-    "firebase_url": "https://fir-app-cdbcb.firebaseio.com",
-    "project_id": "fir-app-cdbcb",
-    "storage_bucket": "fir-app-cdbcb.appspot.com"
+    "project_number": "816859068102",
+    "firebase_url": "https://base-app-8c144.firebaseio.com",
+    "project_id": "base-app-8c144",
+    "storage_bucket": "base-app-8c144.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1083053791439:android:8d14b9bed662d089f2bfba",
+        "mobilesdk_app_id": "1:816859068102:android:25561ea1a59cf6df1449c7",
         "android_client_info": {
           "package_name": "br.com.cezinha.base_app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1083053791439-uod9ugao1evrv8b25jj347nl6ncq7d23.apps.googleusercontent.com",
+          "client_id": "816859068102-7cisee1fdmbrf7ah0mdb6k1cluj553gr.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyC8gffcP6o2sWCDCNoODUE4QzQNmWWt1BQ"
+          "current_key": "AIzaSyAl_BCq5rfq-pGaOI-YZoSGRmuj9B9dlOA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1083053791439-uod9ugao1evrv8b25jj347nl6ncq7d23.apps.googleusercontent.com",
+              "client_id": "816859068102-7cisee1fdmbrf7ah0mdb6k1cluj553gr.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
